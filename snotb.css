@@ -1,0 +1,44 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: peachpuff;
+}
+.row{
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+img{
+    border-bottom-left-radius:30px ;
+    border-top-left-radius: 30px;
+    image-orientation: from-image;
+    width: 100%; 
+    
+    height: 100%; 
+    object-fit: contain;
+}
+.heading{
+    font-weight: bold;
+    py:3;
+    color: royalblue;
+    font-family: cursive;
+    /* background-color: rgb(8, 116, 116); */
+}
+.col-lg-5{
+    /* background-color: red; */
+    /* background-image: url("https://source.unsplash.com/470x500/?crystal"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-7{
+    /* background-color: green; */
+}
+.btn1{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    font-weight: bold;
+}
